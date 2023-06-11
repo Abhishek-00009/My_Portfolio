@@ -197,7 +197,7 @@ nav {
 
 
 
-span {
+#footer_link {
     height: 50%;
     width: 100%;
     display: flex;
@@ -212,7 +212,7 @@ span {
 
 
 
-span>a {
+#footer_link>a {
     margin: 4px;
     flex-basis: 40px;
     justify-content: right;
