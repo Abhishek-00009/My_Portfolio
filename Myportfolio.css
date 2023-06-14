@@ -175,8 +175,8 @@ section section:hover {
 
 svg {
     color: #a25d1abf;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     transition: all 0.4s;
 }
 
@@ -184,8 +184,8 @@ svg {
 
 svg:hover {
 
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     box-shadow: 0 0.7em 0.7em -0.7em;
 }
 
@@ -214,9 +214,9 @@ nav {
 
 #footer_link>a {
     margin: 4px;
-    flex-basis: 40px;
+    flex-basis: 50px;
     justify-content: right;
-    margin: 300px 2px auto;
+    margin: 340px 2px auto;
 
 }
 
