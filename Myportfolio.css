@@ -65,6 +65,7 @@ ol {
 
     border-color: rgb(59, 58, 58);
     box-shadow: 0 0.7em 0.7em -0.7em rgb(79, 77, 79);
+    transition: all 0.95s;
 
 }
 
@@ -81,6 +82,7 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.95s;
 
 }
 
@@ -104,6 +106,7 @@ ol {
     justify-content: right;
     flex-wrap: wrap;
     margin: 8px auto;
+    transition: all 0.95s;
 }
 
 .intro:hover {
