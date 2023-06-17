@@ -1,5 +1,5 @@
 h1 {
-    color: #4b97e4;
+    color: #8b2797;
     text-align: center;
     font-family: 'Geologica', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -54,26 +54,13 @@ ol {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .intro {
     display: flex;
     align-items: center;
     justify-content: right;
     flex-wrap: wrap;
     margin: 8px auto;
-    transition: all 0.95s;
+    transition: all 0.75s;
 
     .image img {
         height: 150px;
@@ -88,7 +75,7 @@ ol {
 
         border-color: rgb(59, 58, 58);
         box-shadow: 0 0.7em 0.7em -0.7em rgb(79, 77, 79);
-        transition: all 0.95s;
+        transition: all 0.75s;
 
     }
 
@@ -105,7 +92,7 @@ ol {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: all 0.95s;
+        transition: all 0.75s;
 
     }
 
@@ -117,7 +104,7 @@ ol {
     justify-content: right;
     flex-wrap: wrap;
     margin: 8px auto;
-    transition: all 0.95s;
+    transition: all 0.75s;
 
     .image img {
         height: 150px;
@@ -127,7 +114,7 @@ ol {
         justify-content: left;
         display: flex;
         margin: 20px 20px 20px 5px;
-        transition: all 0.95s;
+        transition: all 0.75s;
         box-shadow: 0 0.7em 0.7em -0.7em rgb(79, 77, 79);
 
 
@@ -143,7 +130,7 @@ ol {
         background-color: rgba(203, 199, 199, 0.63);
         border-radius: 20%;
         margin: 60px 10px 10px 30px;
-        transition: all 0.95s;
+        transition: all 0.75s;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -160,19 +147,21 @@ section section {
     border-radius: 15px;
     justify-content: right;
     align-items: center;
-    background-color: #76397d;
+    background-color: #2781b9;
     margin: 2px auto;
+    transition: all 0.75s;
 }
 
 
 section section:hover {
-    transition: all 1s;
+    transition: all 0.75s;
     display: flex;
     border-radius: 15px;
     justify-content: right;
     align-items: center;
-    background-color: #923c9b;
+    background-color: #28bdd4;
     margin: 2px auto;
+
 }
 
 
@@ -196,20 +185,24 @@ svg:hover {
 
 
 nav {
-    height: 90%;
+    height: 300px;
     width: 100%;
+    background-color: #dcbda5;
 }
 
-
+footer {
+    display: flex;
+    background-color: #dcbda5;
+}
 
 #footer_link {
-    height: 50%;
+    height: 20%;
     width: 100%;
     display: flex;
     flex-direction: row;
 
     justify-content: left;
-    align-items: left;
+    align-items: last baseline;
 
 
     background-color: #dcbda5;
@@ -218,10 +211,10 @@ nav {
 
 
 #footer_link>a {
-    margin: 4px;
+
     flex-basis: 50px;
-    justify-content: left;
-    margin: 340px 2px auto;
+    align-items: end;
+    margin: 2px 0px 7px 5px;
 
 }
 
@@ -244,13 +237,39 @@ nav {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#footer_link img {
+#logo {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+nav>span>img {
     height: 135px;
     width: 175px;
-    margin: 14px 7px;
-    align-items: first baseline;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    padding-bottom: 0px;
+    background-color: #dcbda5;
+    border-radius: 10px;
+    transition: 0.5s;
 
-    justify-content: left;
+
+
+}
+
+nav>span>img:hover {
+    height: 135px;
+    width: 175px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    padding-bottom: 0px;
+    background-color: #dcbda5;
+    border-radius: 10px;
+    transition: 0.5s;
+
+
+
 }
 
 #footer_link span {
