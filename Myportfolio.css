@@ -208,7 +208,7 @@ nav {
     display: flex;
     flex-direction: row;
 
-    justify-content: right;
+    justify-content: left;
     align-items: left;
 
 
@@ -220,13 +220,14 @@ nav {
 #footer_link>a {
     margin: 4px;
     flex-basis: 50px;
-    justify-content: right;
+    justify-content: left;
     margin: 340px 2px auto;
 
 }
 
 
 #body {
+    display: inline;
     background-color: whitesmoke;
 }
 
@@ -241,4 +242,17 @@ nav {
 
 #hi div>div {
     font-family: 'Courier New', Courier, monospace;
+}
+
+#footer_link img {
+    height: 135px;
+    width: 175px;
+    margin: 20px 4px;
+    align-items: first baseline;
+
+    justify-content: left;
+}
+
+#footer_link span {
+    display: flex;
 }
