@@ -1,5 +1,5 @@
 h1 {
-    color: #8b2797;
+    color: #9c39a7ee;
     text-align: center;
     font-family: 'Geologica', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -147,7 +147,7 @@ section section {
     border-radius: 15px;
     justify-content: right;
     align-items: center;
-    background-color: #2781b9;
+    background-color: #2989c5;
     margin: 2px auto;
     transition: all 0.75s;
 }
@@ -159,7 +159,7 @@ section section:hover {
     border-radius: 15px;
     justify-content: right;
     align-items: center;
-    background-color: #28bdd4;
+    background-color: #31a1e7;
     margin: 2px auto;
 
 }
