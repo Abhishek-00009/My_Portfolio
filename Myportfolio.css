@@ -43,7 +43,7 @@ p {
 
 
 ol {
-    color: lightslategrey;
+    color: rgb(99, 129, 159);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 80;
     letter-spacing: 2px;
@@ -160,7 +160,7 @@ section section {
     border-radius: 15px;
     justify-content: right;
     align-items: center;
-    background-color: #7e4285;
+    background-color: #76397d;
     margin: 2px auto;
 }
 
@@ -171,7 +171,7 @@ section section:hover {
     border-radius: 15px;
     justify-content: right;
     align-items: center;
-    background-color: #6b4170;
+    background-color: #923c9b;
     margin: 2px auto;
 }
 
@@ -247,7 +247,7 @@ nav {
 #footer_link img {
     height: 135px;
     width: 175px;
-    margin: 20px 4px;
+    margin: 14px 7px;
     align-items: first baseline;
 
     justify-content: left;
