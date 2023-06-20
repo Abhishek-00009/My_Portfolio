@@ -169,8 +169,8 @@ section section:hover {
 
 svg {
     color: #a25d1abf;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     transition: all 0.4s;
 }
 
@@ -178,9 +178,10 @@ svg {
 
 svg:hover {
 
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     box-shadow: 0 0.7em 0.7em -0.7em;
+    transition: all 0.4s;
 }
 
 
@@ -201,8 +202,8 @@ footer {
     display: flex;
     flex-direction: row;
 
-    justify-content: left;
-    align-items: last baseline;
+    justify-content: right;
+    align-items: baseline;
 
 
     background-color: #dcbda5;
@@ -212,7 +213,7 @@ footer {
 
 #footer_link>a {
 
-    flex-basis: 50px;
+    flex-basis: 40px;
     align-items: end;
     margin: 2px 0px 7px 5px;
 
@@ -239,7 +240,9 @@ footer {
 
 #logo {
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: right;
+    justify-items: right;
+
 }
 
 nav>span>img {
@@ -248,6 +251,7 @@ nav>span>img {
     margin-top: 90px;
     margin-bottom: 0px;
     margin-left: 5px;
+    margin-right: 10px;
     padding-bottom: 0px;
     background-color: #dcbda5;
     border-radius: 10px;
@@ -262,7 +266,8 @@ nav>span>img:hover {
     width: 175px;
     margin-top: 90px;
     margin-bottom: 0px;
-    margin-left: 25px;
+    margin-left: 5px;
+    margin-right: 35px;
     padding-bottom: 0px;
     background-color: #dcbda5;
     border-radius: 10px;
