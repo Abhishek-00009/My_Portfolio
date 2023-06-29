@@ -1,12 +1,56 @@
+#heading{
+    justify-content: flex-end;
+   align-items:flex-end;
+   text-align: right;
+   display: flex;
+   margin: 0px 0px;
+   background-color: rgb(193, 189, 189);
+   border-radius: 5px;
+ 
+}
+
+
+#headlinks{
+    display: inline-block;
+    
+    
+    
+    width: 500px;
+    margin-bottom: 10px;
+    
+}
+#heading img{
+    height: 70px;
+    width: 100px;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+#headlinks a{ 
+    margin: 0px 20px;
+    text-align:  right;
+}
+
 h1 {
     color: #9c39a7ee;
     text-align: center;
     font-family: 'Geologica', sans-serif;
     font-family: 'Raleway', sans-serif;
-    font-weight: 80;
+    font-weight: 400;
     letter-spacing: 1px;
     text-decoration: underline 2px;
-    line-height: 1;
+    line-height: 2;
+   display: inline;
+   margin-top: 20px;
+margin-left: 360px;
+}
+
+#maindiv{
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+.image{
+    display: inline;
 }
 
 
@@ -28,16 +72,19 @@ section>div>h2 {
 
 #intro {
     display: inline-block;
+    margin-top: 0px;
 }
 
-p {
+#maindiv p {
     color: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Belanosima', sans-serif;
     font-weight: 80;
     letter-spacing: 0.7px;
     line-height: 2;
-    display: inline;
+    margin-top: 60px;
+    margin-left: 110px;
     text-shadow: 2cm black;
+    font-size: larger;
 }
 
 
@@ -59,8 +106,8 @@ ol {
     align-items: center;
     justify-content: right;
     flex-wrap: wrap;
-    margin: 8px auto;
-    transition: all 0.75s;
+    margin: 10px auto;
+    transition: all 0.88s;
 
     .image img {
         height: 150px;
@@ -70,12 +117,12 @@ ol {
         align-items: left;
 
         justify-content: left;
-        display: flex;
+        
         margin: 20px 20px 20px 110px;
 
         border-color: rgb(59, 58, 58);
         box-shadow: 0 0.7em 0.7em -0.7em rgb(79, 77, 79);
-        transition: all 0.75s;
+        transition: all 0.88s;
 
     }
 
@@ -92,7 +139,7 @@ ol {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: all 0.75s;
+        transition: all 0.88s;
 
     }
 
@@ -104,7 +151,8 @@ ol {
     justify-content: right;
     flex-wrap: wrap;
     margin: 8px auto;
-    transition: all 0.75s;
+    transition: all 0.88s;
+    cursor: pointer;
 
     .image img {
         height: 150px;
@@ -114,8 +162,9 @@ ol {
         justify-content: left;
         display: flex;
         margin: 20px 20px 20px 5px;
-        transition: all 0.75s;
+        transition: all 0.88s;
         box-shadow: 0 0.7em 0.7em -0.7em rgb(79, 77, 79);
+        cursor: pointer;
 
 
     }
@@ -129,11 +178,12 @@ ol {
         width: 150px;
         background-color: rgba(203, 199, 199, 0.63);
         border-radius: 20%;
-        margin: 60px 10px 10px 30px;
-        transition: all 0.75s;
+        margin: 74px 10px 10px 30px;
+        transition: all 0.88s;
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
 
     }
 
@@ -145,21 +195,24 @@ ol {
 section section {
     display: flex;
     border-radius: 15px;
-    justify-content: right;
+    justify-content: flex-start;
     align-items: center;
-    background-color: #2989c5;
+    background-color: #4ea2d6;
     margin: 2px auto;
-    transition: all 0.75s;
+    transition: all 0.85s;
+   
+}
+#body #introsection{
+    margin-top: 20px;
 }
 
-
 section section:hover {
-    transition: all 0.75s;
+    transition: all 0.85s;
     display: flex;
     border-radius: 15px;
-    justify-content: right;
+    justify-content: flex-start;
     align-items: center;
-    background-color: #31a1e7;
+    background-color: #43b0f4;
     margin: 2px auto;
 
 }
@@ -182,6 +235,7 @@ svg:hover {
     width: 30px;
     box-shadow: 0 0.7em 0.7em -0.7em;
     transition: all 0.4s;
+    cursor: pointer;
 }
 
 
@@ -246,8 +300,8 @@ footer {
 }
 
 nav>span>img {
-    height: 135px;
-    width: 175px;
+    height: 115px;
+    width: 155px;
     margin-top: 90px;
     margin-bottom: 0px;
     margin-left: 5px;
@@ -262,8 +316,8 @@ nav>span>img {
 }
 
 nav>span>img:hover {
-    height: 135px;
-    width: 175px;
+    height: 115px;
+    width: 155px;
     margin-top: 90px;
     margin-bottom: 0px;
     margin-left: 5px;
