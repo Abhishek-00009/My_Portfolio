@@ -347,7 +347,7 @@ footer {
 
 }
 
-nav>span>img {
+nav>span>a>img {
     height: 115px;
     width: 155px;
     margin-top: 90px;
@@ -363,7 +363,7 @@ nav>span>img {
 
 }
 
-nav>span>img:hover {
+nav>span>a>img:hover {
     height: 115px;
     width: 155px;
     margin-top: 90px;
